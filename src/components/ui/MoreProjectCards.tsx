@@ -1,6 +1,6 @@
-import { FC, ReactNode } from 'react';
-import { ChevronRight, Gamepad2, Share2, Shirt, Ticket } from 'lucide-react';
-import Link from 'next/link';
+import { FC, ReactNode } from "react";
+import { ChevronRight, Gamepad2, Share2, Shirt, Ticket } from "lucide-react";
+import Link from "next/link";
 
 interface MoreProjectsCardsProps {
   title: string;
@@ -23,7 +23,7 @@ const MoreProjectsCards: FC<MoreProjectsCardsProps> = ({
   techStack,
 }) => {
   return (
-    <Link target="_blank" href={href || '/'}>
+    <Link target="_blank" href={href || "/"}>
       <div className="flex items-center gap-1 text-primary rounded-lg">
         {
           //@ts-ignore

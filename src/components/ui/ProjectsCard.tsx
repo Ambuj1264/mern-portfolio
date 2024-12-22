@@ -1,7 +1,7 @@
-import { FC } from 'react';
-import { LucideIcon } from 'lucide-react';
-import Link from 'next/link';
-import Image from 'next/image';
+import { FC } from "react";
+import { LucideIcon } from "lucide-react";
+import Link from "next/link";
+import Image from "next/image";
 
 interface ProjectsCardProps {
   title: string;
@@ -17,7 +17,7 @@ const ProjectsCard: FC<ProjectsCardProps> = ({
   techStack,
 }) => {
   return (
-    <Link target="_blank" href={href || '/'}>
+    <Link target="_blank" href={href || "/"}>
       <div className="flex flex-col overflow-hidden gap-3 bg-white text-zinc-800 rounded-lg overflow-ellipsis">
         <Image
           src={`/projects/${src}`}

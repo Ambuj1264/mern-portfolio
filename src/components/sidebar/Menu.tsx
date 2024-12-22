@@ -1,4 +1,4 @@
-import { FC } from 'react';
+import { FC } from "react";
 import {
   Code,
   Flame,
@@ -16,9 +16,9 @@ import {
   Video,
   X,
   Youtube,
-} from 'lucide-react';
-import List from '../ui/List';
-import { useMenu } from '../Provider';
+} from "lucide-react";
+import List from "../ui/List";
+import { useMenu } from "../Provider";
 
 interface MenuProps {}
 
@@ -42,7 +42,7 @@ const Menu: FC<MenuProps> = ({}) => {
       <List link="/" effect="slideUp">
         <Code /> Snippets
       </List>
-      <List link="https://www.instagram.com/heyambujsingh" effect="slideUp">
+      <List link="https://www.instagram.com/heyambu" effect="slideUp">
         <Video /> Videos
       </List>
 
@@ -50,19 +50,19 @@ const Menu: FC<MenuProps> = ({}) => {
       <div className="mt-5">Socials</div>
       <List
         target="_blank"
-        link="https://www.instagram.com/heyambujsingh"
+        link="https://www.instagram.com/heyambuj"
         effect="slideUp"
       >
         <Instagram color="#b5179e" /> Instagram
       </List>
-      <List target="_blank" link="https://github.com/Ambuj1264" effect="slideUp">
-        <Github color="#2a9d8f" /> Github
-      </List>
       <List
         target="_blank"
-        link=""
+        link="https://github.com/Ambuj1264"
         effect="slideUp"
       >
+        <Github color="#2a9d8f" /> Github
+      </List>
+      <List target="_blank" link="" effect="slideUp">
         <Youtube color="#e63946" /> Youtube
       </List>
       <List

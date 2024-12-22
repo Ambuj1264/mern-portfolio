@@ -1,6 +1,6 @@
-import { FC } from 'react';
-import ProjectsCard from '../ui/ProjectsCard';
-import { IProjectSectionCardData } from '../utils/Data';
+import { FC } from "react";
+import ProjectsCard from "../ui/ProjectsCard";
+import { IProjectSectionCardData } from "../utils/Data";
 
 interface ProjectCardSectionProps {
   title: string;

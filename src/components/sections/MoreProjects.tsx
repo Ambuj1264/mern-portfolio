@@ -1,8 +1,8 @@
-import { FC } from 'react';
-import { IProjectSectionCardData } from '../utils/Data';
-import MoreProjectsCards from '../ui/MoreProjectCards';
-import TechStack from '../TechStack';
-import Introduction from '../Introduction';
+import { FC } from "react";
+import { IProjectSectionCardData } from "../utils/Data";
+import MoreProjectsCards from "../ui/MoreProjectCards";
+import TechStack from "../TechStack";
+import Introduction from "../Introduction";
 
 interface MoreProjectsProps {
   title: string;
@@ -21,7 +21,7 @@ const MoreProjects: FC<MoreProjectsProps> = ({ title, data }) => {
               href={card.href}
               key={card.id}
               title={card.title}
-              icon={card.icon || ''}
+              icon={card.icon || ""}
               techStack={card.techStack}
             />
           ))}

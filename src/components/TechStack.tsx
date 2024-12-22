@@ -1,5 +1,5 @@
-import { FC } from 'react';
-import TechCard from './Card/TechCard';
+import { FC } from "react";
+import TechCard from "./Card/TechCard";
 
 interface TechStackProps {}
 
@@ -14,35 +14,29 @@ const TechStack: FC<TechStackProps> = ({}) => {
           title="Frontend"
           classaName="bg-[#4f91f2]"
           tech={[
-            'HTML',
-            'CSS',
-            'Material UI',
-            'Javascript',
-            'Typescript',
-            'React Js',
-            'Next Js 14',
+            "HTML",
+            "CSS",
+            "Material UI",
+            "Javascript",
+            "Typescript",
+            "React Js",
+            "Next Js 14",
           ]}
         />
         <TechCard
           title="Backend"
           classaName="bg-[#f37c36]"
-          tech={['Node Js', 'Express Js', 'Next Auth']}
+          tech={["Node Js", "Nest Js", "Express Js", "Next Auth"]}
         />
         <TechCard
           title="Database"
           classaName="bg-[#e0558a]"
-          tech={['MySql', 'MongoDB', 'PostgreSQL', 'Redis']}
+          tech={["MySql", "MongoDB", "PostgreSQL", "Redis"]}
         />
         <TechCard
           title="Devops"
           classaName="bg-[#10c0a2]"
-          tech={[
-            'Docker',
-            'GIT',
-            'Jenkins',
-            'Sonar',
-            'JIRA',
-          ]}
+          tech={["Docker", "GIT", "Jenkins", "Sonar", "JIRA", "PLANE"]}
         />
       </div>
     </div>
