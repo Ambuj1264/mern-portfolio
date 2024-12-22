@@ -9,7 +9,7 @@ import { Toaster } from "react-hot-toast";
 export const metadata: Metadata = {
   title: "Ambuj Singh",
   description:
-    "Ambuj Singh portfolio website with all details, You can contact me. on this website. or mail me. on ambuj1264675@gmail.com / ambuj.dev@outlook.com ",
+    "Ambuj Singh portfolio website with all details, You can contact me. on this website. or mail me. on heyambujsingh@gmail.com | ambuj.dev@outlook.com ",
 };
 
 export default function RootLayout({

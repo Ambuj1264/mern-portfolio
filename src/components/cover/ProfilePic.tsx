@@ -6,10 +6,12 @@ interface ProfilePicProps {}
 const ProfilePic: FC<ProfilePicProps> = ({}) => {
   return (
     <div className="">
-      <div className="h-24 w-24 relative">
+      <div className="h-48 w-48 relative">
+        {" "}
+        {/* Updated size */}
         <Image
           alt="Ambuj Singh"
-          src="/images/IMG_20220415_110542.jpg"
+          src="/images/myprofile.jpeg"
           layout="fill"
           objectFit="cover"
           className="rounded-full"
