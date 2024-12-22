@@ -40,7 +40,8 @@ const Intro: FC<IntroProps> = ({}) => {
           tips, master clever tricks, conquer coding challenges, implement best
           practices, and even tackle interview questions. Hit that follow button
           on Linkedin if you&apos;ve not already done so and let&apos;s build
-          something extraordinary, one line of code at a time!
+          something extraordinary, one line of code at a time! Contact Me on
+          mail : heyambujsingh@gmail.com | ambuj.dev@outlook.com
         </div>
       </div>
     </div>
