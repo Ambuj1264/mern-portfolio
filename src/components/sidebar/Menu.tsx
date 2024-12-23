@@ -8,18 +8,14 @@ import {
   Instagram,
   Layers,
   Linkedin,
-  Scissors,
-  Share2,
-  Shirt,
-  ShoppingCart,
-  Ticket,
   Video,
   X,
   Youtube,
 } from "lucide-react";
 import List from "../ui/List";
 import { useMenu } from "../Provider";
-
+import { MdCastForEducation } from "react-icons/md";
+import { PiMoneyWavyFill } from "react-icons/pi";
 interface MenuProps {}
 
 const Menu: FC<MenuProps> = ({}) => {
@@ -34,16 +30,22 @@ const Menu: FC<MenuProps> = ({}) => {
       </div>
       {/* List 1 */}
       <List link="/" effect="slideUp">
-        <Home /> Home
+        <Home color="#f77f00" /> Home
       </List>
       <List link="/" effect="slideUp">
-        <Flame /> Trending
+        <Flame color="blue" /> Trending
       </List>
       <List link="/" effect="slideUp">
-        <Code /> Snippets
+        <Code color="yellow" /> Snippets
       </List>
       <List link="/projects/video" effect="slideUp">
-        <Video /> Videos
+        <Video color="red" /> Videos
+      </List>
+      <List link="/education" effect="slideUp" className="text-md">
+        <MdCastForEducation color="#2a9d8f" size={20} /> &nbsp; Education
+      </List>
+      <List link="/experience" effect="slideUp" className="text-md">
+        <PiMoneyWavyFill color="#2a9d8f" size={20} /> &nbsp; Experience
       </List>
 
       {/* List 2 */}
