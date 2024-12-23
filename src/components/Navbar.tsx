@@ -12,7 +12,7 @@ const Navbar: any = ({}) => {
     const body = encodeURIComponent(
       "Hello,\n\nI would like to get in touch with you."
     ); // Body of the email
-    const mailtoLink = `mailto:ambuj1264675@gmail.com?subject=${subject}&body=${body}`;
+    const mailtoLink = `mailto:heyambujsingh@gmail.com?subject=${subject}&body=${body}`;
     window.location.href = mailtoLink; // Opens default email client
   };
 
