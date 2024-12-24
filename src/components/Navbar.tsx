@@ -2,10 +2,16 @@
 import { useState } from "react";
 import Button from "./ui/Button";
 import { useContact, useMenu } from "./Provider";
-import { Menu, User } from "lucide-react";
+import { Download, Menu, User } from "lucide-react";
 
 const Navbar: any = ({}) => {
   const { showMenu, showMenuVisibility } = useMenu();
+  const downloadResume = () => {
+    const link = document.createElement("a");
+    link.href = "/resume/resume.pdf";
+    link.download = "resume.pdf";
+    link.click();
+  };
 
   const handleClickContact = () => {
     const subject = encodeURIComponent("Contact Request"); // Subject of the email
@@ -22,6 +28,10 @@ const Navbar: any = ({}) => {
       <div className="flex items-center gap-5">
         <Button onClick={handleClickContact}>
           Contact Me <User size={18} />
+        </Button>
+
+        <Button onClick={downloadResume}>
+          Download Resume <Download size={18} />
         </Button>
         <button onClick={() => showMenuVisibility(!showMenu)} type="button">
           <Menu className="flex lg:hidden cursor-pointer hover:text-primary transition-colors" />
