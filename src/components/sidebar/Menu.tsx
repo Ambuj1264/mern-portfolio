@@ -32,12 +32,12 @@ const Menu: FC<MenuProps> = ({}) => {
       <List link="/" effect="slideUp">
         <Home color="#f77f00" /> Home
       </List>
-      <List link="/" effect="slideUp">
+      {/* <List link="/" effect="slideUp">
         <Flame color="blue" /> Trending
-      </List>
-      <List link="/" effect="slideUp">
+      </List> */}
+      {/* <List link="/" effect="slideUp">
         <Code color="yellow" /> Snippets
-      </List>
+      </List> */}
       <List link="/projects/video" effect="slideUp">
         <Video color="red" /> Videos
       </List>
