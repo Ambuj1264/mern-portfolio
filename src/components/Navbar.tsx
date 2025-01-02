@@ -1,7 +1,6 @@
 "use client";
-import { useState } from "react";
 import Button from "./ui/Button";
-import { useContact, useMenu } from "./Provider";
+import { useMenu } from "./Provider";
 import { Download, Menu, User } from "lucide-react";
 
 const Navbar: any = ({}) => {
